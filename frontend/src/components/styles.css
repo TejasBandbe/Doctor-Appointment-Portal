@@ -1,0 +1,313 @@
+.maintenance-container .outer-box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maintenance-box{
+    text-align: center;
+    border: 2px solid #ccc;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.maintenance-box img{
+    width: 10rem;
+    margin-bottom: 1rem;
+}
+.maintenance-box h3{
+    color: red;
+}
+
+
+.download-link{
+    text-align: center;
+}
+.download-button{
+    text-align: center;
+}
+.main-box .row .box{
+    border: 2px solid #ccc;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.header-container .logo-img img{
+    height: 6rem;
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+.header-container .logo-content{
+    margin-left: 1rem;
+    font-weight: 700;
+    font-size: 13px;
+    color: #287eef;
+}
+.header-container .header-content{
+    text-align: right;
+}
+.header-container .header-content span{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+.header-container .header-content p{
+    font-size: 16px;
+    margin-right: 1rem;
+    font-weight: 400;
+}
+hr{
+    height: 12px;
+    border-top: 3px solid black;
+}
+
+.home-header{
+    text-align: center;
+}
+.home-header span{
+    font-weight: 800;
+    font-size: 20px;
+}
+.home-header p p{
+    color: red;
+    font-weight: 500;
+}
+.home-header .date{
+    text-align: right;
+    margin-top: 1rem;
+    padding-right: 6rem;
+}
+.home-container{
+    margin-top: 3rem;
+}
+.form-group label{
+    padding: 5px;
+    font-weight: 700;
+}
+.form-group span{
+    color: red;
+}
+.info{
+    padding-top: 1rem;
+}
+.btn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-container i{
+    margin-top: 0.3rem;
+}
+.footer-container p{
+    padding-left: 12px;
+    font-weight: 700;
+    color: #287eef;
+    cursor: pointer;
+}
+.footer-container p:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.footer-container i{
+    color: #287eef;
+}
+.sign{
+    text-align: right;
+    margin-top: 3rem;
+}
+.sign img{
+    height: 4rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+@media (max-width: 768px){
+    .header .header-container{
+        height: 6rem;
+    }
+    .header-container .logo-img img{
+        height: 4.5rem;
+        margin-left: 0.7rem;
+        padding-top: 0.7rem;
+    }
+    .header-container .logo-content{
+        font-size: 10px;
+        margin-left: 0.7rem;
+    }
+    .header-container .header-content span{
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-right: 1rem;
+    }
+    .header-container .header-content p{
+        font-size: 10px;
+        margin-right: 1rem;
+    }
+    .home-header span{
+        font-weight: 800;
+        font-size: 16px;
+    }
+    .home-header p{
+        font-size: 13px;
+    }
+    .info{
+        padding-top: 0.4rem;
+    }
+    .form{
+        font-size: 13px;
+    }
+    .form input{
+        font-size: 13px;
+    }
+    .form select{
+        font-size: 13px;
+    }
+    .form textarea{
+        font-size: 13px;
+    }
+    .footer-container p{
+        font-size: 12px;
+    }
+    .footer-container i{
+        margin-top: 0.25rem;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 525px){
+    .maintenance-box img{
+        width: 8rem;
+    }
+    .maintenance-box h3{
+        font-size: 1rem;
+    }
+    .footer-container p{
+        font-size: 10px;
+    }
+    .info{
+        padding-top: 0.4rem;
+    }
+    .footer-container i{
+        margin-top: 0.15rem;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 450px){
+    hr{
+        margin: 0;
+    }
+    .header-container .logo-img img{
+        height: 4rem;
+        margin-left: 0.7rem;
+        padding-top: 0.3rem;
+    }
+    .header-container .logo-content{
+        font-size: 10px;
+        margin-top: 3px;
+        margin-left: 0.7rem;
+    }
+    .header-container .header-content span{
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-right: 1rem;
+    }
+    .header-container .header-content p{
+        font-size: 10px;
+        margin-right: 1rem;
+    }
+    .home-header span{
+        font-weight: 800;
+        font-size: 15px;
+    }
+    .home-header p{
+        font-size: 10px;
+    }
+    .home-header .date{
+        margin-top: 0.5rem;
+        padding-right: 1rem;
+        font-size: 0.8rem;
+    }
+    .home-container{
+        margin-top: 0rem;
+    }
+    .bookhome{
+        font-size: 10px;
+    }
+    .sign{
+        margin-top: 0rem;
+    }
+    .sign img{
+        height: 3rem;
+        margin-right: 2rem;
+        margin-bottom: 0rem;
+    }
+    .sign p{
+        font-size: 0.8rem;
+    }
+    .footer-container p{
+        font-size: 8px;
+        margin: 0;
+    }
+    .footer-container i{
+        margin-top: 0.15rem;
+        font-size: 8px;
+    }
+    .info{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 380px){
+    .maintenance-box img{
+        width: 6rem;
+    }
+    .header-container .logo-img img{
+        height: 3rem;
+        margin-left: 0.7rem;
+        padding-top: 0.3rem;
+    }
+    .header-container .logo-content{
+        font-size: 7px;
+        margin-left: 0.7rem;
+    }
+    .header-container .header-content span{
+        font-size: 1rem;
+        font-weight: 700;
+        margin-right: 1rem;
+    }
+    .header-container .header-content p{
+        font-size: 8px;
+        margin-right: 1rem;
+    }
+    .home-header span{
+        font-weight: 800;
+        font-size: 14px;
+    }
+    .home-header p{
+        font-size: 11px;
+    }
+    .home-header .date{
+        padding-right: 1rem;
+    }
+    .sign img{
+        height: 3rem;
+        margin-right: 2rem;
+    }
+    .footer-container p{
+        font-size: 8px;
+    }
+    .footer-container i{
+        margin-top: 0.15rem;
+        font-size: 8px;
+    }
+    .info{
+        font-size: 0.8rem;
+    }
+}
