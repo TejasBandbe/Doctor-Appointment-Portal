@@ -47,3 +47,7 @@
         https://www.netlify.com/
         create and account -> login -> sites -> drag and drop project folder or browse ->
         the link will be provided by netlify
+
+## Demo
+
+https://github.com/TejasBandbe/Doctor-Appointment-Portal/assets/138388245/534bb292-de1f-4ac2-9a27-f90e0be088c0
