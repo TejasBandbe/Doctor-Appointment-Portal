@@ -121,7 +121,6 @@ const bookAppointment = async() =>{
 };
 
 const deleteSlot = async(doctorId, timeSlot) => {
-    debugger;
     const url = createurl('/deleteslot');
     axios.post(url, {
         "drid": doctorId,

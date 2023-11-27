@@ -1,15 +1,15 @@
 export const constants = {
-    MOBILE_NO: "YOUR_PHONE_NUMBER",
-    EMAIL_ID: "YOUR_EMAIL_ID",
-    LOCATION: "YOUR_LOCATION",
-    WEBSITE: "YOUR_WEBSITE_NAME",
+    MOBILE_NO: "+91 9823629901",
+    EMAIL_ID: "medbookingpro@gmail.com",
+    LOCATION: "Ratnagiri, India",
+    WEBSITE: "https://medbookingpro.netlify.app",
     APP_NAME: "MedBookingPro",
-    ADDR_LINE_1: "ADDRESS_LINE_1",
-    ADDR_LINE_2: "ADDRESS_LINE_2"
+    ADDR_LINE_1: "B-201 Arihant Mall,",
+    ADDR_LINE_2: "Opp. ST stand, Ratnagiri - 415612"
 }
 
 export function createurl(path){
-    return 'http://localhost:9999/api/bookings' + path;
+    return 'https://tejas65backends.cyclic.app/api/bookings' + path;
 }
 
 export function log(message){

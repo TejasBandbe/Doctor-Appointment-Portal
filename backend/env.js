@@ -1,6 +1,6 @@
 module.exports.constants = {
     SERVER_PORT: 9999,
-    PHONE_NO: 'YOUR_EMAIL_ID',
+    PHONE_NO: 'YOUR_PHONE_NUMBER',
 }
 
 module.exports.mail = {
